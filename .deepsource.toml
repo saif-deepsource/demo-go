@@ -6,3 +6,7 @@ enabled = true
 
   [analyzers.meta]
   import_root = "github.com/saif-deepsource/demo-go"
+
+[[transformers]]
+name = "gofmt"
+enabled = true
