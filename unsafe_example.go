@@ -3,17 +3,26 @@ package main
 import (
 	"fmt"
 	
-	
-	
+
 	
 	"unsafe"
 )
 
-type Fake struct{}
+type Fake 
+
+
+struct{}
 
 func 
 
-(Fake) Good() {}
+(Fake)
+
+
+Good() {}
+
+
+
+
 
 func unsafeCode() {
 	unsafeM := Fake{}
@@ -21,7 +30,9 @@ func unsafeCode() {
 	
 	
 	)
-	intArray := [...]int{1, 2}
+	intArray :=
+	
+	[...]int{1, 2}
 	fmt.Printf("\nintArray: %v\n", intArray)
 	intPtr := &intArray[0]
 	fmt.Printf("\nintPtr=%p, *intPtr=%d.\n", intPtr, *intPtr)
